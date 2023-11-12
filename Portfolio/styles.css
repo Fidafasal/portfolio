@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.profile-pic {
+    max-legth: 50%;
+    max-width: 100px;
+}
+
+.header-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.work-image{
+    max-legth: 100%;
+    max-width: 400px;
+}
+section {
+    margin: 2em 0;
+    text-align: left;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 0.5em;
+}
+.school-image {
+    max-legth: 3000%;
+    max-width: 400px;
+}
+#info-box {
+    text-align: center;
+}
+
+.box {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+.project-image{
+    max-legth: 100%;
+    max-width: 200px;
+}
+.social-links {
+    margin-top: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    margin-right: 10px;
+    color: #3498db; /* You can change the color as needed */
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+
